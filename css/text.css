@@ -1,0 +1,92 @@
+	@import 'https://fonts.googleapis.com/css?family=Oswald|Raleway';
+		
+		html{
+			font-family: 'Raleway', sans-serif !important;
+		}
+		header h1{
+			font-family: 'Oswald', sans-serif;
+		}
+		header h1 small{
+			font-family: 'Raleway', sans-serif;
+			color:#00ccc8;
+			font-style: italic;
+		}
+		.divider{
+			margin: 64px;
+		}
+		.contact-info{
+			margin-top:18px; 
+			list-style: none;
+		}
+		.contact-info li{
+			margin-bottom: 10px;
+		}
+		.contact-info .media-heading, .fa-stack{
+			color:#00ccc8;
+		}
+
+		.motive h3{
+			text-align: center;
+		}
+
+		.mystyle{
+			border: 0;
+		    height: 1px;
+		    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 204, 200, 0.75), rgba(0, 0, 0, 0));
+		}
+		.simple{
+			color:inherit;
+		}
+		.vital{
+			color:inherit;
+			font-size: 165%;
+			/*font-style:oblique;*/
+			text-transform: uppercase;
+		}
+
+
+		/*color code for special*/
+		.special{
+			list-style: none;
+		}
+		.special h1{
+			margin: 0px;
+		}
+
+		.special li:before{
+			content:"";
+			display: inline-block;
+	   		width: 15px;
+	   		height: 15px;
+	   		-moz-border-radius: 15px;
+	   		-webkit-border-radius: 15px;
+	   		border-radius: 15px;
+	   		background: #fff;
+	   		border:1px solid #ccc;
+	   		position: relative;
+	   		left: -28px;
+		}
+		.special li{
+			margin: 0px;
+			padding-left: 20px;
+			padding-bottom: 10px;
+			border-left:1px solid #ccc; 
+		}
+
+		.special li:last-child{
+			border-left: none;
+		}
+		.special-left, .special-right{
+			position: relative;
+			top:-24px;
+			text-align: justify;
+		}
+		.special-right span{
+			color:#00ccc8;
+			font-size:15px;
+		}
+
+		/*table setting*/
+		.table i,th{
+			color:#00ccc8;
+		}
